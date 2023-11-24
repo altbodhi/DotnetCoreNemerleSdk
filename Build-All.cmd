@@ -6,7 +6,7 @@ for /D /R  %%i in (bin,obj) do rd /s /q "%%~i"
 
 cd Nemerle.Sdk
 dotnet pack
-cd ../macr
+cd ../samples/macr
 dotnet build
 cd ../prj
 dotnet run
