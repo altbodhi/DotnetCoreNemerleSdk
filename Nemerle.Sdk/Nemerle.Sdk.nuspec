@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Nemerle.Sdk</id>	
+    <version>1.0.0</version>	
+    <title>Nemerle.Sdk</title>
+    <authors>rsdn</authors>
+    <description>Nemerle.Sdk</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="$packToolsDir$\**" target="tools\" />
+    <file src=".\build\**" target="build\" />
+    <file src=".\Sdk\**" target="Sdk\" />    
+  </files>
+</package>

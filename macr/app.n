@@ -1,0 +1,4 @@
+macro m () {
+  Nemerle.IO.printf ("compile-time\n");
+  <[ Nemerle.IO.printf ("run-time\n") ]>;
+}

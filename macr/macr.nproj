@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Nemerle.Sdk/1.0.0">
+  <PropertyGroup>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <NoStdLib>True</NoStdLib>
+    <OutputType>dll</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Nemerle.Compiler">
+      <HintPath>$(Nemerle)/Nemerle.Compiler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="app.n" />
+  </ItemGroup>
+
+</Project>
